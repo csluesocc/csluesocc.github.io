@@ -1,4 +1,4 @@
 csluesocc.github.io
 ===================
 
-Comunidad de hardware y software libre en github
+Comunidad de usuarios de software y hardware libre en github
