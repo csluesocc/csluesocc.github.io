@@ -57,7 +57,7 @@
 
 </head>
 
-<body>
+<body onLoad="getTime()">
 
     <!--Header-->
     <header class="navbar navbar-fixed-top">
@@ -106,8 +106,9 @@
                 <div class="sl-slide-inner">
                     <div class="container">
                         <img class="pull-right" src="public/images/sample/slider/img2.png" alt="" />
-                        <h2>Campus Party El Salvador</h2>
-                        <h3 class="gap">Registrate <a href="http://goo.gl/MjdnCq">AQUÍ</a> y participa en la rifa de entradas</h3>
+                        <h2>Campus Party El Salvador</h2>                        
+                        <h3 class="gap" id="contador"></h3>
+
                     </div>
                 </div>
             </div>
